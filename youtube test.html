@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube.com Clone</title>
+    <style>
+      .thumbnail{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 150px;
+
+      }
+      .search-bar{
+        font-size: 16px;
+        width: 200px;
+        border-radius: 20px;
+        border-style: none;
+        padding: 10px;
+        box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.25);
+      }
+      .email{
+        font-family: arial;
+        color: rgb(92, 92, 92);
+        margin-bottom: 10px;
+      }
+      .text-box{
+        width: 400px;
+        height:30px;
+        border-radius: 5px;
+        border-color: grey;
+        border-style: solid;
+
+      }
+      .text{
+        font-family: arial;
+        color: rgb(92, 92, 92);
+        
+      }
+      .join-button{
+        background-color: rgb(61, 135, 238);
+        color: white;
+        font-size: 25px;
+        padding: 15px 130px 15px 130px;
+        border-style: none;
+        border-radius: 50px;
+      }
+      .practice-thumbnail{
+        width: 70px;
+        height: 70px;
+        border-radius: 40px;
+        vertical-align: middle;
+        margin-right: 10px;
+        object-fit: cover;
+        object-position: right;
+
+      }
+      .what-happening{
+        font-family: arial;
+        font-size: 25px;
+        vertical-align: middle;
+        color: rgb(72, 72, 72);
+        width: 400px;
+        border-style: none;
+      }
+      .tweet-button{
+        background-color: rgb(61, 135, 238);
+        padding: 10px 20px;
+        border-style: none;
+        border-radius: 50px;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        vertical-align: middle;
+      }
+
+      .tweet{
+        margin-top: 20px;
+        box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.25);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 600px;
+        border-radius: 10px;
+      }
+
+      .fb-image{
+        width: 200px;
+        height: 200px;
+        object-fit:cover;
+        object-position: right;
+      }
+
+      .fb-name{
+        font-family: arial;
+        font-weight: bold;
+        font-size: 18px;
+        margin: 0px;
+        padding-top: 10px;
+        padding-left: 8px;
+      }
+
+      .mutual-friend{
+        font-family: arial;
+        color: rgb(87, 87, 87);
+        margin: 0;
+        padding: 5px 0px 10px 8px;
+      }
+
+      .add-friend{
+        background-color: rgb(56, 122, 214);
+        border-style: none;
+        padding: 10px 15px 10px 15px;
+        margin-left: 8px;
+        border-radius: 5px;
+        color: white;
+        font-size: 15px;
+
+      }
+
+      .facebook{
+        margin-top: 30px;
+        height: 310px;
+        width: 200px;
+        box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+        padding-bottom: 15px;
+        display: inline-block;
+        margin-right: 15px;
+        margin-bottom: 30px;
+      }
+
+      .google{
+        text-align: center;
+      }
+
+      .google2{
+        text-align: center;
+      }
+
+      .google3{
+        text-align: center;
+      }
+
+      .google-logo{
+        width: 300px;
+      }
+
+      .google-search{
+        margin-top: 10px;
+        width: 650px;
+        height: 50px;
+        border-radius: 25px;
+        border-style: none;
+        box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.25);
+        font-size: 20px;
+        padding-left: 20px;
+      }
+
+      .google-button{
+        margin-top: 40px;
+        border-style: solid;
+        border-color: white;
+        padding: 15px;
+        font-size: 20px;
+        margin-right: 20px;
+        transition: 0.15s;
+      }
+
+      .google-button:hover{
+        margin-top: 40px;
+        border-style: solid;
+        padding: 15px;
+        font-size: 20px;
+        margin-right: 20px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        border-color: rgb(0, 0, 0);
+        border-width: 2px;
+        transition: 0.15s;
+       
+      }
+
+      .thumbnail-1{
+        margin-top: 5px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: 5px;
+      }
+
+      .thumbnail-image{
+        width: 30px;
+        margin-left: 10px;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+    <input class="search-bar" type="text" placeholder="Search">
+
+    <p class="email">Email</p>
+    <input class ="text-box" type="text">
+    <p class="text">By clicking Agree & Join, you agree to the Privacy Policy.</p>
+    <button class="join-button">Agree & Join</button>
+    
+    <div class="tweet">
+    <img class="practice-thumbnail" src="thumbnails/practice-thumbnail.webp">
+    <input class="what-happening" placeholder="What's happening?"></span>
+    <button class="tweet-button">Tweet</button>
+    </div>
+
+
+    
+    <div class="facebook">
+        <img class="fb-image" src="thumbnails/practice-thumbnail.webp">
+      <p class="fb-name">Oliver</p>
+      <div class="thumbnail-1">
+        <img class="thumbnail-image" src="channel pictures/thumbnail image.jpg">
+      </div>
+      <div  class="thumbnail-1">
+      <p class="mutual-friend">2 mutual friends</p>
+      </div>
+      <button class="add-friend">Add Friend</button>
+    </div>
+    
+
+    <div class="facebook">
+      <img class="fb-image" src="thumbnails/practice-thumbnail.webp">
+    <p class="fb-name">Oliver</p>
+    <div class="thumbnail-1">
+      <img class="thumbnail-image" src="channel pictures/thumbnail image.jpg">
+    </div>
+    <div  class="thumbnail-1">
+    <p class="mutual-friend">2 mutual friends</p>
+    </div>
+    <button class="add-friend">Add Friend</button>
+  </div>
+  
+
+  <div class="facebook">
+    <img class="fb-image" src="thumbnails/practice-thumbnail.webp">
+  <p class="fb-name">Oliver</p>
+  <div class="thumbnail-1">
+    <img class="thumbnail-image" src="channel pictures/thumbnail image.jpg">
+  </div>
+  <div  class="thumbnail-1">
+  <p class="mutual-friend">2 mutual friends</p>
+  </div>
+  <button class="add-friend">Add Friend</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="google">
+      <img class="google-logo" src="thumbnails/google logo.png">
+    </div>
+    <div class="google2">
+      <input class="google-search" placeholder="Search Google or type a URL">
+    </div>
+    <div class="google3">
+      <button class="google-button">Google Search</button>
+      <button class="google-button">I'm Feeling Lucky</button>
+    </div>
+
+
+  </body>
+</html>

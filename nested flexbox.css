@@ -1,0 +1,66 @@
+div{
+  font-family: arial;
+}
+
+.container{
+  margin-top: 20px;
+  padding: 10px;
+  width: 400px;
+}
+
+.tweet-container{
+  display: flex;
+
+}
+
+.thumbnail{
+  height: 50px;
+}
+
+.tweet-handle-container{
+  display: flex;
+  margin-bottom: 4px;
+
+}
+
+.tweet-text-container{
+  margin-left: 15px;
+}
+
+
+.tweet-account{
+  font-weight: bold;
+}
+
+.tweet-handle{
+  margin-left: 5px;
+  color: rgb(78, 78, 78);
+}
+
+.tweet-text{
+  margin-bottom: 15px;
+}
+
+.tweet-link-container{
+  display: flex;
+  border-style: solid;
+  border-color: rgb(212, 212, 212);
+  border-radius: 20px;
+}
+
+.link-thumbnail{
+  width: 150px;
+  background-color: rgb(212, 212, 212);
+  border-radius:18px 0 0 18px;
+  border-style: solid;
+  border-color: rgb(212, 212, 212);
+}
+
+.link-text-container{
+  padding: 15px;
+}
+
+.link-site-name{
+  color: rgb(78, 78, 78);
+  margin-bottom: 5px;
+}

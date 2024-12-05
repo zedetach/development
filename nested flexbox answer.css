@@ -1,0 +1,28 @@
+div {
+  font-family: arial;
+}
+
+.container{
+  padding: 10px 15px 10px 15px;
+  width: 400px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.inbox-label{
+  font-size: 14px;
+  color: rgb(120, 120, 120)
+}
+
+.email{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sender-picture-container{
+  margin-right: 10px;
+}
+

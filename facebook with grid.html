@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<head>
+  <title>
+    Facebook with grid
+  </title>
+
+  <style>
+     .facebook{
+        margin-top: 30px;
+        height: 310px;
+        width: 200px;
+        box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+      }
+
+      .add-friend{
+        background-color: rgb(56, 122, 214);
+        border-style: none;
+        padding: 10px 15px 10px 15px;
+        margin-left: 8px;
+        border-radius: 5px;
+        color: white;
+        font-size: 15px;
+
+      }
+
+      .fb-name{
+        font-family: arial;
+        font-weight: bold;
+        font-size: 18px;
+        margin: 0px;
+        padding-top: 10px;
+        padding-left: 8px;
+      }
+
+      .thumbnail-1{
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+
+      .mutual-friend{
+        font-family: arial;
+        color: rgb(87, 87, 87);
+        margin: 0;
+        margin-left: 5px;
+      }
+
+      .fb-image{
+        width: 200px;
+        height: 200px;
+        object-fit:cover;
+        object-position: right;
+      }
+
+      .thumbnail-image{
+        width: 30px;
+        margin-left: 10px;
+      }
+
+      .facebook-grid{
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        column-gap: 20px;
+      }
+
+      .thumbnail-grid{
+        display: grid;
+        grid-template-columns: 40px 1fr;
+        column-gap: 2px;
+        align-items: center;
+      }
+
+  </style>
+  
+</head>
+
+  <body>
+    <div class="facebook-grid">
+
+      <div class="facebook">
+        <img class="fb-image" src="thumbnails/practice-thumbnail.webp">
+      <p class="fb-name">Oliver</p>
+
+      <div class="thumbnail-grid">
+
+        <div class="thumbnail-1">
+          <img class="thumbnail-image" src="channel pictures/thumbnail image.jpg">
+        </div>
+        <div  class="thumbnail-1">
+        <p class="mutual-friend">2 mutual friends</p>
+        </div>
+        
+      </div>
+      
+      <button class="add-friend">Add Friend</button>
+    </div>
+    
+  
+    <div class="facebook">
+      <img class="fb-image" src="thumbnails/practice-thumbnail.webp">
+    <p class="fb-name">Oliver</p>
+
+    <div class="thumbnail-grid">
+
+      <div class="thumbnail-1">
+        <img class="thumbnail-image" src="channel pictures/thumbnail image.jpg">
+      </div>
+      <div  class="thumbnail-1">
+      <p class="mutual-friend">2 mutual friends</p>
+      </div>
+      
+    </div>
+    
+    <button class="add-friend">Add Friend</button>
+  </div>
+  
+  
+  <div class="facebook">
+    <img class="fb-image" src="thumbnails/practice-thumbnail.webp">
+  <p class="fb-name">Oliver</p>
+
+  <div class="thumbnail-grid">
+
+    <div class="thumbnail-1">
+      <img class="thumbnail-image" src="channel pictures/thumbnail image.jpg">
+    </div>
+    <div  class="thumbnail-1">
+    <p class="mutual-friend">2 mutual friends</p>
+    </div>
+    
+  </div>
+  
+  <button class="add-friend">Add Friend</button>
+</div>
+   
+  </body>
+</head>

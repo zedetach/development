@@ -1,0 +1,122 @@
+p{
+  font-family: roboto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.video-title{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 18px ;
+  width: 300px;
+  line-height:24px;
+  margin-bottom: 5px;  
+}
+
+.video-stats{
+  font-family: Arial;
+  font-size: 1rem;
+  color:  rgb(80, 80, 80);
+  margin-top: 0;  
+
+}
+.video-author{
+  font-family: Arial;
+  font-size: 14px;
+  color: rgb(80, 80, 80);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.video-description{
+  font-family: Arial;
+  font-size: 14px;
+  color: rgb(80, 80, 80);
+  width: 300px;
+  line-height: 24px;
+  margin-bottom: 100px;
+
+}
+
+.apple-text{
+  margin-bottom: 50px;
+  font-size: 14px;
+  background-color: red;
+  color:white;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.shop-link{
+  cursor: pointer;
+}
+
+.shop-link:hover{
+  text-decoration: underline;
+}
+
+
+.new{
+  text-align: center;
+  color: rgb(255, 119, 0);
+  font-weight: bold;
+  font-size: 18px;
+
+}
+
+.macbook{
+  text-align: center;
+  color: rgb(30, 30, 30);
+  font-weight: bold;
+  font-size:30px;
+  margin-top: 5px;
+}
+
+.supercharged{
+  text-align: center;
+  color: rgb(30, 30, 30);
+  font-weight: bold;
+  font-size:55px;
+}
+
+.price{
+  text-align: center;
+  color: rgb(30, 30, 30);
+  font-size:20px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.center{
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.buy{
+  background-color: rgb(66, 126, 255);
+  color:white;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 25px;
+  border-style: none;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.value{
+  font-size: 50px;
+}
+
+.currency{
+  margin-left: 10px;
+  font-size: 25;
+  color: rgb(97, 97, 97);
+}
+
+.green-text{
+  color: green;
+  font-size: 20px;
+}
